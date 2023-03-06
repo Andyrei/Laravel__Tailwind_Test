@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.Main__Form{
+    @apply bg-gray-700 rounded-lg px-10 py-5  space-y-10
+}
+.Main__Form input,
+.Main__Form textarea{
+    @apply w-full p-2 rounded-md resize-none 
+}
